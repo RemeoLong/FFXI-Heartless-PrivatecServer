@@ -1,0 +1,19 @@
+set(ENTITY_SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/automatonentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/automatonentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/baseentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/baseentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/battleentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/battleentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/charentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/charentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/mobentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/mobentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/npcentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/npcentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/petentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/petentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/trustentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/trustentity.h
+    PARENT_SCOPE
+)

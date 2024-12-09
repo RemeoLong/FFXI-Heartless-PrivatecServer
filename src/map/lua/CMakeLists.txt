@@ -1,0 +1,35 @@
+set(LUA_SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_ability.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_ability.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_action.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_action.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_attack.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_attack.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_baseentity.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_baseentity.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_battlefield.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_battlefield.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_instance.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_instance.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_item.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_item.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_loot.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_loot.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_mobskill.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_mobskill.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_petskill.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_petskill.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_spell.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_spell.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_statuseffect.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_statuseffect.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_trade_container.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_trade_container.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_trigger_area.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_trigger_area.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_zone.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_zone.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/luautils.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/luautils.h
+    PARENT_SCOPE
+)
