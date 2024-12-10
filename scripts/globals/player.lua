@@ -91,6 +91,16 @@ xi.player.charCreate = function(player)
         player:unlockJob(0)
     end
 
+    -- unlock all spells
+    
+    -- unlock all weaponskills
+
+    -- cap all skills
+
+    -- unlock all mount key items
+
+    -- enable all homepoint crystals
+  
     -- give all maps
     if xi.settings.main.ALL_MAPS == 1 then
         for i = xi.ki.MAP_OF_THE_SAN_DORIA_AREA, xi.ki.MAP_OF_DIO_ABDHALJS_GHELSBA do
